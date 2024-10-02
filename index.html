@@ -14,28 +14,28 @@
 </head>
 
 <body>
-  <header>
-    <div class="menu_container">
-      <input type="checkbox" id="menu_toggle" />
-      <h1 class="logo">
-        <a href="#"><img src="img/logo.svg" alt="ロゴ" /></a>
-      </h1>
-      <label for="menu-toggle" class="menu_button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </label>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">TOP</a></li>
-          <li><a href="#">INFORMATION</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><a href="#">ACCESS</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
+  <header id="header">
+    <div class="logo">
+      <a href="#"><img src="img/logo.svg" alt="FA EXHIBITION"></a>
+    </div>
+
+    <nav id="navi">
+      <ul class="menu">
+        <li><a href="#">TOP</a></li>
+        <li><a href="#information">INFORMATION</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </header>
+
 
   <div class="fv">
     <img src="img/mainvisual1.jpg" alt="" />
@@ -49,7 +49,7 @@
   </div>
   <h1 class="main_ttl js-fade">Hello Flower!<br />FA EXHIBITION 2021</h1>
 
-  <section class="info js-fade">
+  <section id="information" class="info js-fade">
     <h2 class="section_ttl">INFORMATION</h2>
     <p class="date">2021 JUL 1(THU)-3(SAT)</p>
     <p>DAY1 10am-6pm OTHER 10am-5:30pm</p>
